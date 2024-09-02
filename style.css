@@ -112,6 +112,7 @@ cursor: pointer;
 }
  .ditale-section h3 {
     color: #000000;
+    font-size: 2rem;
  }
  .ditale-section ul li {
     display: flex;
@@ -141,6 +142,7 @@ cursor: pointer;
  justify-content: space-around;
  
  }
+ 
  .last-section-container {
  display: flex;
  
