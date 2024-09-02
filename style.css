@@ -31,12 +31,12 @@ ul li button {
     border: none;
     background-color: #fff;
     cursor: pointer;
-     transition: transform ease 300ms;
+ transition: transform ease 300ms;
     
 }
 button:hover{
 
- top: -10px;
+    transform: translate(0, -10px);
 }
 /* ul li:nth-child(5){
     list-style-type:disc;
@@ -96,7 +96,7 @@ cursor: pointer;
 }
 
 .hold-img:hover{
-    top: -10px;
+    transform: translate(0, -10px);
 }
  
 .div-parent {
