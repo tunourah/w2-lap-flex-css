@@ -1,0 +1,153 @@
+ 
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+ 
+
+*{
+   padding: 0;
+   margin: 0;
+
+}
+body{
+    background-color: black;
+}
+.contanier {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+    color: #fff;
+}
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 40vw;
+    list-style: none;
+}
+ul li button {
+    padding: 1rem;
+    width: 10rem;
+    color: #000000;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+    transition: transform ease 300ms;
+    
+}
+button:hover{
+
+    transform: translate(0, -10px);
+}
+/* ul li:nth-child(5){
+    list-style-type:disc;
+    list-style-position:inside ;
+} */
+.main-title{
+    font-family: Inter, sans-serif;
+
+    display: flex;
+    flex-direction: column ;
+    color: #fff;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50vh;
+  flex-wrap: wrap;
+ 
+}
+.main-title h1 {
+    font-size: 8rem;
+
+}
+.main-title p {
+    text-align: center;
+    border:  2px solid #fff;
+    width: 40vw;
+    align-items: center;
+    line-height: 2rem;
+}
+
+.image-container{
+    display: flex;
+    flex-wrap: wrap;
+justify-content: space-evenly;
+height: 190vh;
+   width: 70vw;
+    border: 2px solid #fff;
+}
+img {
+    width: 20vw;
+    height: 30vh;
+}
+h3 {
+    font-size: 1rem;
+   color: #fff;
+
+
+}
+.hold-img{
+    border-top: 8px solid rgb(99, 95, 95);
+    border-radius: 1rem;
+text-align: center;
+}
+ 
+.div-parent {
+    display: flex;
+    justify-content: center;
+  
+}
+.ditale-section {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    height: 60vh;
+}
+ .ditale-section h3 {
+    color: #000000;
+ }
+ .ditale-section ul li {
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .ditale-section button {
+    padding: 1rem;
+    width: 10rem;
+    color: #ffffff;
+    border: none;
+    background-color: #000000;
+    cursor: pointer;
+
+ }
+ .ditale-section p {
+    font-size: 1.5rem;
+ }
+ .second{
+    position: relative;
+    top: 11rem;
+    right: 8rem;
+ }
+ 
+ .more-text {
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ 
+ }
+ .last-section-container {
+ display: flex;
+ 
+ justify-content: center;
+ background-color: #fff;
+ align-items: flex-end;
+ }
+ .last-section {
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 70vw;
+    align-items: flex-end;
+ }
+ .last-section img {
+    width: 10vw;
+    height: 20vh;
+ }
