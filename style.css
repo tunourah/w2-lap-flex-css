@@ -31,12 +31,12 @@ ul li button {
     border: none;
     background-color: #fff;
     cursor: pointer;
-    transition: transform ease 300ms;
+     transition: transform ease 300ms;
     
 }
 button:hover{
 
-    transform: translate(0, -10px);
+ top: -10px;
 }
 /* ul li:nth-child(5){
     list-style-type:disc;
@@ -72,11 +72,14 @@ button:hover{
 justify-content: space-evenly;
 height: 190vh;
    width: 70vw;
-    border: 2px solid #fff;
+ 
+
 }
 img {
     width: 20vw;
     height: 30vh;
+     border-top-right-radius:1rem ;
+     border-top-left-radius: 1rem;
 }
 h3 {
     font-size: 1rem;
@@ -88,6 +91,12 @@ h3 {
     border-top: 8px solid rgb(99, 95, 95);
     border-radius: 1rem;
 text-align: center;
+transition: transform ease 300ms;
+cursor: pointer;
+}
+
+.hold-img:hover{
+    top: -10px;
 }
  
 .div-parent {
