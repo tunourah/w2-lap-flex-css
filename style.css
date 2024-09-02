@@ -26,6 +26,7 @@ ul {
     width: 40vw;
     list-style: none;
 }
+ 
 ul li button {
     padding: 1rem;
     width: 10rem;
@@ -73,13 +74,13 @@ button:hover{
     flex-wrap: wrap;
 justify-content: space-evenly;
 height: 190vh;
-   width: 70vw;
+   width: 90vw;
  
 
 }
 img {
-    width: 20vw;
-    height: 30vh;
+    width: 25vw;
+    height: 35vh;
      border-top-right-radius:1rem ;
      border-top-left-radius: 1rem;
 }
@@ -90,8 +91,10 @@ h3 {
 
 }
 .hold-img{
+   
     border-top: 8px solid rgb(99, 95, 95);
-    border-radius: 1rem;
+    border-radius: 0.5rem;
+
 text-align: center;
 transition: transform ease 300ms;
 cursor: pointer;
@@ -104,13 +107,14 @@ cursor: pointer;
 .div-parent {
     display: flex;
     justify-content: center;
+    height: 200vh;
   
 }
 .ditale-section {
     background-color: #fff;
     display: flex;
     justify-content: space-around;
-    height: 60vh;
+    height: 70vh;
 }
  .ditale-section h3 {
     color: #000000;
@@ -132,10 +136,16 @@ cursor: pointer;
  .ditale-section p {
     font-size: 1.5rem;
  }
+
  .second{
-    position: relative;
-    top: 11rem;
-    right: 8rem;
+    align-self: flex-start;  
+    transform: translate(-9rem, 10rem); 
+ }
+ .position-image{
+    display: flex;
+    justify-content: flex-end;  
+    align-items: flex-start;    
+    
  }
  
  .more-text {
@@ -163,4 +173,6 @@ cursor: pointer;
  .last-section img {
     width: 10vw;
     height: 20vh;
+    border: 1px solid rgb(99, 95, 95);
+    
  }
